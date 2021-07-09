@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: rgb(19, 77, 59);
+  --bg__menu: rgb(38, 123, 97);
+}
+
+.size__añadir{
+  width: 30px;
+  height: 30px;
+}
+
+.color{
+  background: var(--bg__menu);
+}
+
+
+.size__añadir:hover{
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.click:active{
+  cursor: pointer;
+}
